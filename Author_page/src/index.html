@@ -7,25 +7,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
 	<title>AuthorPage</title>
 </head>
 
 <body>
-	<div class="container">
-		<div class="header">Welcome</div>
-		<form id="form" action="#" class="form">
-			<input name="login" type="text" placeholder="Username">
-			<input name="password" type="text" placeholder="Password">
-	
-			<button class="btn">LOGIN</button>
+	<div class="form">
+		<div class="form__header">ХУЙ</div>
+		<form id="form" action="#" class="form__form">
+			<div class="form__item">
+				<input class="form__input" name="login" type="text" placeholder="Username">
+				<span class="form__span"></span>
+			</div>
+			<div class="form__item">
+				<input class="form__input" name="password" type="text" placeholder="Password">
+				<span class="form__span"></span>
+			</div>
+			<button class="form__btn">LOGIN</button>
 		</form>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script.js"></script>
-	<script src="js/wow.min.js"></script>
 </body>
 </html>
